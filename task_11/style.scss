@@ -171,7 +171,7 @@ table {
         text-transform: uppercase;
         text-decoration: none;
     }
-    .nav-button:hover{
+    .nav-button:hover {
         background-color: white;
     }
 }
@@ -300,6 +300,7 @@ a {
     background-color: #5fcac6;
     color: #ffffff;
 }
+
 .color:hover {
     background-color: white;
     color: #5fcac6;
@@ -310,6 +311,7 @@ a {
     background-color: #ffffff;
     color: #6e768f;
 }
+
 .nocolor:hover {
     background-color: #eceff4;
 }
@@ -382,9 +384,11 @@ a {
     margin-right: 20px;
     margin-left: -60px;
 }
+
 small a:hover {
     text-decoration: underline;
 }
+
 .upload-but {
     padding: 15px 25px;
     cursor: pointer;
@@ -400,19 +404,23 @@ small a:hover {
         margin-right: 6px;
     }
 }
+
 .upload-but:hover {
     background-color: white;
 }
+
 .upload-docs input[type=file] {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        left: -1px;
-        overflow: hidden;
-    }
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: -1px;
+    overflow: hidden;
+}
+
 .upload-docs input[type=file]:focus + .upload-but {
     outline: 4px auto #5e9ed6;
 }
+
 .upload-table {
     padding-right: 5%;
     padding-left: 5%;
@@ -423,28 +431,28 @@ small a:hover {
     border: 1px solid #c9d0e1;
     border-radius: 2px;
     text-align: left;
-        th {
-            padding: 7px;
-            text-transform: uppercase;
-            color: #a5abc5;
-            font-size: 0.7em;
-            white-space: nowrap;
-            letter-spacing: 1px;
-            width: 15%;
-            font-weight: bold;
-        }
-        th:first-of-type {
-            width: 25%;
-        }
-        td {
-            padding: 7px;
-            font-size: 0.8em;
-            white-space: nowrap;
-            width: 15%;
-        }
-        .fa-file-text {
-            padding-right: 10px;
-        }
+    th {
+        padding: 7px;
+        text-transform: uppercase;
+        color: #a5abc5;
+        font-size: 0.7em;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        width: 15%;
+        font-weight: bold;
+    }
+    th:first-of-type {
+        width: 25%;
+    }
+    td {
+        padding: 7px;
+        font-size: 0.8em;
+        white-space: nowrap;
+        width: 15%;
+    }
+    .fa-file-text {
+        padding-right: 10px;
+    }
 }
 
 .trash {
@@ -454,6 +462,7 @@ small a:hover {
     margin-left: 12px;
     cursor: pointer;
 }
+
 .trash:hover {
     color: #7d7d7d;
 }
@@ -522,6 +531,9 @@ small a:hover {
     .file-symbol {
         margin-right: 5px;
     }
+}
+.add:hover {
+    background-color: white;
 }
 
 .two-section {
@@ -717,6 +729,9 @@ input[type=range] {
     width: 90%;
     margin-left: 20px;
     position: relative;
+}
+input[type=range]:hover {
+    cursor: pointer;
 }
 
 input[type=range]::-webkit-slider-thumb {

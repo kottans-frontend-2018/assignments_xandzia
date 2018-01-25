@@ -457,6 +457,9 @@ small a:hover {
   .add .file-symbol {
     margin-right: 5px; }
 
+.add:hover {
+  background-color: white; }
+
 .two-section {
   display: flex;
   flex-wrap: wrap;
@@ -616,6 +619,9 @@ input[type=range] {
   width: 90%;
   margin-left: 20px;
   position: relative; }
+
+input[type=range]:hover {
+  cursor: pointer; }
 
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
