@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/e90d552187.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
 
@@ -190,7 +190,7 @@
                         <div class="input-wrap">
                            <label for="card-number" class="input-field-label">Card number</label>
                            <br>
-                           <input required id="card-number" type="text" class="input-field" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?)|(?:5[1-5][0-9]{14})$" maxlength="16" placeholder="1234567891234567">
+                           <input required id="card-number" type="text" class="input-field" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?)|(?:5[1-5][0-9]{14})$" maxlength="16" placeholder="1234567891234567" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                         </div>
                         <div class="input-wrap">
                            <label for="expiry" class="input-field-label">Expiry date</label>
@@ -209,7 +209,7 @@
                 <label for="agree-terms">
 				<input type="checkbox" id="agree-terms" required>I agree to the <a href="#">Terms and Conditions</a></label>
                 <input type="submit" value="place order" class="order-but color" />
-                <button type="button" class="order-but nocolor">Print a quoute</button>
+                <button type="button" class="order-but nocolor" onclick="window.print()">Print a quoute</button>
             </div>
         </form>
     </main>
