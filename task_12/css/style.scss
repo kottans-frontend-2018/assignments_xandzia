@@ -2,7 +2,7 @@ $green: #3f8257;
 $red: #dc4130;
 $grey: #858A87;
 $font: #383838;
-$l-green: #79CE97;
+$l-green: rgba(63, 130, 87, 0.15);
 
 html {
     height: 100%;
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: $green;
-    background-image: url(../img/Splatter-texture.png);
+    background-image: url(../img/texture.png);
     padding: 15px 30px 15px 30px;
     img {
         width: 100%;
@@ -34,11 +34,9 @@ h1 {
     width: 0px;
 }
 button {
-    //border: 2px solid #de4028;
     border: none;
     border-radius: 3px;
     box-shadow: 1px 1px 2px rgba(0,0,0,.3);
-    //transition: all .4s cubic-bezier(0,0,.2,1);
     color: $green;
     font-weight: 600;
     text-transform: capitalize;
@@ -107,8 +105,7 @@ main {
     box-shadow: 1px 1px 1px 0 rgba(0,0,0,.07), 1px 2px 5px 0 rgba(0,0,0,.06);
     border-radius: 2px;
     margin: 15px;
-    //background-color: #3f825721;
-    background-color: #858a8724;
+    background-color: $l-green;
     position: relative;
     cursor: pointer;
     img {
@@ -120,16 +117,6 @@ main {
 .pizza:focus{
     box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
-//.pizza::before {
-//    content: '';
-//    position: absolute;
-//    top: 0;
-//    left: 0;
-//    border-width: 32px 32px 0 0;
-//    border-style: solid;
-//    border-color: #fff #3f825721;
-//    z-index: 2;
-//}
 .pizza-info {
     padding: 10px;
     display: flex;
@@ -152,9 +139,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 2em 30px;
-    //background: #79ce97b8;
     background: $grey;
-    background-image: url(../img/Splatter-texture.png);
+    background-image: url(../img/texture.png);
     position: absolute;
     right: 0;
     bottom: 0;
@@ -166,8 +152,6 @@ footer {
     }
     address a:hover,
     address a:focus {
-        //filter: drop-shadow(1px 1px 1px rgba(220,65,48,.5));
-        //filter: drop-shadow(2px 2px 2px rgba(63,130,87,.5));
         color: $red;
     }
     small {
