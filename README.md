@@ -1,1 +1,9 @@
-# assignments_xandzia
+## Task 10 (Weather App)
+:partly_sunny: [Demo](https://xandzia.github.io/kottans_frontend/task_10/index.html)
+- [Repo](https://github.com/kottans-frontend-2018/assignments_xandzia/tree/task_10/task_10)
+## Task 11 (Form)
+- [Demo](https://xandzia.github.io/kottans_frontend/task_11/index.html)
+- [Repo](https://github.com/xandzia/kottans_frontend/tree/master/task_11)
+## Task 12 (Pizza App)
+- [Demo](https://xandzia.github.io/kottans_frontend/task_12/index.html)
+- [Repo](https://github.com/xandzia/kottans_frontend/tree/master/task_12)
