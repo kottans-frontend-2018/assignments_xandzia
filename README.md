@@ -7,3 +7,4 @@
 ## Task 12 (Pizza App)
 - [Demo](https://xandzia.github.io/kottans_frontend/task_12/index.html)
 - [Repo](https://github.com/xandzia/kottans_frontend/tree/master/task_12)
+- ![20018-03-11](https://thumbs.gfycat.com/LameNecessaryAnole-size_restricted.gif)
